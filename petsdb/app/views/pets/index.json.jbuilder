@@ -1,4 +1,4 @@
 json.array!(@pets) do |pet|
-  json.extract! pet, :id, :name, :image, :owner_id
+  json.extract! pet, :id, :name, :image, :owner_id :breed
   json.url pet_url(pet, format: :json)
 end

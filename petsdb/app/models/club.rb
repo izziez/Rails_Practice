@@ -1,5 +1,5 @@
 class Club < ActiveRecord::Base
-  has_many :owner
+  has_many :owners
 
   validates :name, presence: true, uniqueness: true
 
