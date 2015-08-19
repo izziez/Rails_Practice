@@ -13,6 +13,6 @@
  *= require_tree .
  *= require_self
  */
-.jumbotrom {
+.jumbotron {
 	margin-top: 20px;
 }
