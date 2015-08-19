@@ -1,0 +1,45 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  next_vet_appt: MyString
+  date: MyString
+  vet_notes: MyString
+  text: MyString
+  Next_Farrier_appt: MyString
+  date: MyString
+  farrier_notes: MyString
+  text: MyString
+  Chiropractor_appt: MyString
+  date: MyString
+  Chiropractor_notes: MyString
+  text: MyString
+  Dentist_Appt: MyString
+  date: MyString
+  Dentist_Notes: MyString
+  text: MyString
+  Next_Message_Appt: MyString
+  date: MyString
+  Massage_Notes: MyString
+  text: MyString
+
+two:
+  next_vet_appt: MyString
+  date: MyString
+  vet_notes: MyString
+  text: MyString
+  Next_Farrier_appt: MyString
+  date: MyString
+  farrier_notes: MyString
+  text: MyString
+  Chiropractor_appt: MyString
+  date: MyString
+  Chiropractor_notes: MyString
+  text: MyString
+  Dentist_Appt: MyString
+  date: MyString
+  Dentist_Notes: MyString
+  text: MyString
+  Next_Message_Appt: MyString
+  date: MyString
+  Massage_Notes: MyString
+  text: MyString

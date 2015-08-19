@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @genre.name %>
+</p>
+
+<p>
+	<strong>Actors in <%= @genre.name%> genre: </strong>
+
+	<ul>
+		<% @genre.actors.each do |actor| %>
+			<li><%= actor.name %></li>
+		<% end %>
+	</ul>
+</p>	
+
+<p>
+	<strong>Movies in <%=@genre.name%> genre:</strong>
+
+	<ul>
+		<% @genre.movies.each do |movie| %>
+			<li><%= movie.name %></li>
+		<% end %>
+	</ul>
+</p>			
+
+<%= link_to 'Edit', edit_genre_path(@genre) %> |
+<%= link_to 'Back', genres_path %>

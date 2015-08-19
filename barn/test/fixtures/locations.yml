@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  stall_number: MyString
+  integer: MyString
+  pasture_number: MyString
+  integer: MyString
+  Feeding_Instructions_AM: MyString
+  text: MyString
+  Feeding_Instructions_Lunch: MyString
+  text: MyString
+  Feeding_Instructions_PM: MyString
+  text: MyString
+  General_Behavior_Notes: MyString
+  text: MyString
+
+two:
+  stall_number: MyString
+  integer: MyString
+  pasture_number: MyString
+  integer: MyString
+  Feeding_Instructions_AM: MyString
+  text: MyString
+  Feeding_Instructions_Lunch: MyString
+  text: MyString
+  Feeding_Instructions_PM: MyString
+  text: MyString
+  General_Behavior_Notes: MyString
+  text: MyString
