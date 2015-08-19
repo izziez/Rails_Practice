@@ -10,5 +10,10 @@
   <%= @owner.club.name %>
 </p>
 
+<p>
+  <strong>Image:</strong>
+  <img src = '<%= @owner.image %>' class = responsive>
+</p>
+
 <%= link_to 'Edit', edit_owner_path(@owner) %> |
 <%= link_to 'Back', owners_path %>
